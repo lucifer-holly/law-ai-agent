@@ -6,7 +6,7 @@ import react from "@vitejs/plugin-react";
 // the normal "/" root so `npm run dev` just works.
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === "production" ? "/legal-clause-index/" : "/",
+  base: mode === "production" ? "/law-ai-agent/" : "/",
   build: {
     outDir: "dist",
     assetsInlineLimit: 0,
