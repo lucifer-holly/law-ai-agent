@@ -1,0 +1,11 @@
+# Core pipeline (always required)
+numpy>=1.26,<3
+pandas>=2.1
+scikit-learn>=1.4
+
+# Only needed for --model bge-m3 (optional)
+sentence-transformers>=3.0
+torch>=2.1
+
+# Dev / tests
+pytest>=8.0

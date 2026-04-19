@@ -1,0 +1,11 @@
+{
+  "backend": "tfidf",
+  "analyzer": "char_wb",
+  "ngram_range": [
+    3,
+    5
+  ],
+  "max_features": 8192,
+  "dim": 8192,
+  "vocab_size": 8192
+}

@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-feature-settings: "ss01", "cv11", "calt";
+  }
+  body {
+    background-image:
+      radial-gradient(
+        ellipse 80% 60% at 20% 0%,
+        rgba(184, 86, 44, 0.04) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        ellipse 60% 50% at 100% 100%,
+        rgba(10, 30, 58, 0.05) 0%,
+        transparent 50%
+      );
+    background-attachment: fixed;
+  }
+  ::selection {
+    background: rgba(184, 86, 44, 0.2);
+  }
+}
+
+@layer components {
+  /* A hairline rule in the editorial style — used to break sections */
+  .rule-hairline {
+    @apply border-t border-ink-900/15;
+  }
+  .rule-hairline-dashed {
+    @apply border-t border-dashed border-ink-900/25;
+  }
+  /* Uppercase label text used above panels */
+  .eyebrow {
+    @apply text-[10px] font-medium tracking-wide-cap uppercase text-ink-500;
+  }
+  /* Display headline */
+  .display {
+    @apply font-display text-ink-900 tracking-tightest leading-[0.95];
+  }
+}
+
+/* Recharts styling overrides — keep everything in-theme */
+.recharts-surface {
+  overflow: visible;
+}
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
