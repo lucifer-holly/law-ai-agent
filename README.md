@@ -21,8 +21,7 @@ six commercial-contract categories and see its Index Score, percentile rank
 within its category, similarity histogram, and nearest neighbours in the
 corpus.
 
-<!-- Replace with a real GIF once the site is deployed -->
-![screenshot placeholder](docs/screenshot.png)
+![Law AI Agent demo screenshot](docs/screenshot.png)
 
 ---
 
