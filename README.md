@@ -14,7 +14,7 @@
 
 ### Live demo
 
-**→ https://lucifer-holly.github.io/legal-clause-index/**
+**→ [https://lucifer-holly.github.io/legal-clause-index/](https://lucifer-holly.github.io/law-ai-agent/)**
 
 A static site, no API keys required. Pick any of 16 pre-selected clauses from
 six commercial-contract categories and see its Index Score, percentile rank
